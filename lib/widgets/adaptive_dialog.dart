@@ -59,6 +59,7 @@ class _AdaptiveDialogState extends State<AdaptiveDialog> {
         title: widget.title,
         content: widget.content,
         actions: widget.actions,
+        actionsAlignment: MainAxisAlignment.spaceAround,
       );
     }
   }
